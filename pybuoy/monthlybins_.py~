@@ -1,0 +1,55 @@
+import numpy as np
+def monthlybins(data = [],yr = 2000): # data is hourly timeseries
+    years = len(data)//(365*24)
+    hr_per_yr = 8760
+    out =[]
+    months = [31,28,31,30,31,30,31,31,30,31,30,31]
+    for i in range(12):
+        out.append([])
+        
+    start = 0
+    print('here we go...')
+    for i in range(years):
+        print('year:',yr)
+        
+        if yr%4 == 0:
+            end = start + hr_per_yr+24
+            year = data[start:end]
+            
+            months[1] = 29
+             
+    
+            
+            for i in range(0,12):
+                month_hrs = months[i]*24
+                hr0 = int(np.sum(months[0:i]))*24 # will return 0 for first month 
+                month = year[hr0:hr0+month_hrs]
+                out[i] = np.append(out[i],month)
+            print('leap year')
+
+            months[1] = 28
+             
+        else:
+            end = start + hr_per_yr
+             
+            year = data[start:end]
+             
+            print(len(year),len(year)/365)
+             
+            for i in range(0,12):
+                month_hrs = months[i]*24
+                hr0 = int(np.sum(months[0:i]))*24 # will return 0 for first month 
+                month = year[hr0:hr0+month_hrs]
+                out[i] = np.append(out[i],month)
+            print('normal year again')
+                 
+                
+    
+
+        start = end
+
+        yr +=1
+
+    return out# , len(data)%365
+
+
