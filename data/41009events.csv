@@ -1,4 +1,4 @@
-,Start Date,Storm Name,Duration (hrs),$\int\tau_{wvs} dt$  (Pa h),Max $\tau_{wvs}$ (Pa),Avg. $u_{br}$ (m/s),Avg. SWH (m),Avg. $T_p$ (s),Avg. MWD (deg),Avg. $\tau_{wnd}$ (Pa),Avg. Wind Dir. (deg)
+,Start Date,Storm Name,Duration (hrs),Integrated Seafloor Stress (Pa h),Max Seafloor Stress (Pa),Avg. Bottom Orbital Vel. (m/s),Avg. SWH (m),Avg. Peak Period (s)
 1,10-15-2012,,376,222.45811528655528,3.43,0.46,4.45,12.9,46.17,0.25,322.55
 2,11-05-2022,,177,181.85705929970908,3.48,0.36,3.75,10.94,66.76,0.18,82.39
 3,11-05-2011,,172,112.26332764013507,1.38,0.29,3.22,11.55,,0.12,23.02
