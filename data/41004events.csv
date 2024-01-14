@@ -1,4 +1,4 @@
-,Start Date,Storm Name,Duration (hrs),Integrated Seafloor Stress (Pa h),Max Seafloor Stress (Pa),Avg. Bottom Orbital Vel. (m/s),Avg. SWH (m),Avg. Peak Period (s),Avg. MWD (deg),Avg. $\tau_{wnd}$ (Pa),Avg. Wind Dir. (deg)
+,Start Date,Storm Name,Duration (hrs),Integrated Seafloor Stress (Pa h),Max Seafloor Stress (Pa),Avg. Bottom Orbital Vel. (m/s),Avg. SWH (m),Avg. Peak Period (s)
 1,09-01-2019,Hur. Dorian,123,103.33082967649678,3.6,0.31,3.55,11.26,163.11,0.22,58.7
 2,09-07-2017,Hur. Irma,136,92.3373531126534,3.33,0.29,3.4,11.43,117.93,0.19,54.7
 3,08-24-2011,Hur. Irene,68,76.31518845608682,3.57,0.4,3.58,13.59,,0.24,64.36
