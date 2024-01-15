@@ -1,4 +1,6 @@
-Lead Applicant: Tim Hesford$^1$ & 
-        Supervisors: Dr. Sutara Suanda$^2$, Dr. Ruoying He$^3$ & 
-        Contact Info: twh1812@uncw.edu$^1$, suandas@uncw.edu$^2$, rhe@ncsu.edu$^3$ &
-        Catagory 1: Undergraduate
+This repository contains the code and products created for the 2022 SECOORA data challenge. For this project we used historical SECOORA wind and wave data from Jan. 1, 2006 to Dec. 31 2022 to investigate weather events with the potential for significant sediment mobilization in the South Atlantic Bight (SAB). Events were identified as periods where wave induced seafloor stresses exceeded 0.27 Pa for at least 24 hours with a minimum of 24 hours beneath this threshold between events. For our analysis we choose to use observations from NDBC 41025, NDBC 41013, NDBC 41004, and NDBC 41009.
+
+
+
+
+
